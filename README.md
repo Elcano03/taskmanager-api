@@ -40,7 +40,7 @@ docker compose up -d --build
 Levanta dos servicios:
 
 - **api** — la aplicación FastAPI en `http://localhost:8000`
-- **mongo** — MongoDB en `localhost:27017`
+- **mongo** — MongoDB, expuesto en `localhost:27018` (para conectarte desde fuera de Docker, ej. con MongoDB Compass); dentro de la red de Docker usa el puerto estándar 27017
 
 Para bajarlo:
 
